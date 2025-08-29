@@ -107,7 +107,6 @@ export async function getGlobal(){
     return await fetchAPI(url.href, { method: 'GET' });
 }
 
-
     //! pages section
 const pagesQuery = qs.stringify({
   populate:{
