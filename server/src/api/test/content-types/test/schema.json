@@ -1,0 +1,69 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tests",
+  "info": {
+    "singularName": "test",
+    "pluralName": "tests",
+    "displayName": "test"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "bool": {
+      "type": "boolean",
+      "default": false
+    },
+    "richText": {
+      "type": "blocks"
+    },
+    "json": {
+      "type": "json"
+    },
+    "num": {
+      "type": "integer"
+    },
+    "mail": {
+      "type": "email"
+    },
+    "date": {
+      "type": "date"
+    },
+    "password": {
+      "type": "password"
+    },
+    "media": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "enum": {
+      "type": "enumeration",
+      "enum": [
+        "TYPEONE",
+        "TYPETWO"
+      ]
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "text"
+    },
+    "markdown": {
+      "type": "richtext"
+    },
+    "link": {
+      "type": "component",
+      "component": "shared.link",
+      "repeatable": false
+    }
+  }
+}
