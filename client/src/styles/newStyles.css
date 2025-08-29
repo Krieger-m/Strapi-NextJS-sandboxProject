@@ -72,3 +72,7 @@ h1{
     padding: 20px 60px;
     
 }
+
+.card{
+    border: 2px 3px solid #6f6f7b;
+}
