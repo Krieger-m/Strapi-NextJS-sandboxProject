@@ -1,5 +1,6 @@
 
-    //! this is for image support from strapi, still need to read the docs to be able to say more about it :D
+    //! this is for image support from strapi  
+    //? still need to read the docs to be able to say more about it :D
 
 import Image from "next/image";
 import { getStrapiURL } from "@/utils/get-strapi-url";
