@@ -5,7 +5,7 @@
 import type { Core } from '@strapi/strapi';
 
 
-  //! custom population-object
+  //! default population-object
   // default populate-all
 const populate = '*';
 
