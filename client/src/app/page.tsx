@@ -77,6 +77,7 @@ export default async function HomeRoute() {
       
       <HeroSection {...landingPageBlocks[0]}/> 
       <SectionHeading {...landingPageBlocks[1]}/>
+      
     </div>
   );
 }
