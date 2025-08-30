@@ -18,18 +18,18 @@ export function HeroSection({
     return (
         <section className='hero-section'>
             
-            <div>
+            <div className='image-div'>
                 <StrapiImage 
                     src={image.url} 
                     alt={image.alternativeText}
-                    width={540}
+                    width={480}
                     height={720}
                 />
             </div>
             <div className='text-area'>
                 <div>
                     <h1 className='head smaller'>{heading}</h1>
-                    <p className='paragraph narrow'>{text}</p>
+                    <p className='narrow'>{text}</p>
                 
                         <Link href={links[0].href}>
                             <button className='primary-button'>
