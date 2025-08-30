@@ -20,7 +20,7 @@ export function Card({
         <h2 className={'head'}>
           {heading}
         </h2>
-        <p>
+        <p className="paragraph">
           {text}
         </p>
       </div>

@@ -7,18 +7,23 @@
 
 import type { CardGridProps } from "@/types";
 import { Card } from "./Card";
-import { CardProps } from "@/types";
 
-export function SectionHeading({
+export function CardGrid({
   cards,
 }: Readonly<CardGridProps>) {
   return (
     <section >
      
-      <div className='section-heading'>
-        
-                {/* maybe use the anchorLink later?? <a></a> */}
-      </div>
+      <div className="card-grid-container">
+      {cards.map((card) => (
+        <Card 
+          key={card.id}
+          id={card.id}
+          heading={card.heading}
+          text={card.text}
+        />
+      ))}
+    </div>
     </section>
   );
 }

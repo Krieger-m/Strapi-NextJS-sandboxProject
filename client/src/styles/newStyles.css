@@ -46,6 +46,7 @@ h1{
 .head{
     color: blueviolet;
     text-shadow: 3px 3px 8px #555555;
+    padding-bottom: 5px;
 }
 
 .bigger{
@@ -69,10 +70,27 @@ h1{
 }
 
 .paragraph{
-    padding: 20px 60px;
+    padding: 20px 20px;
     
 }
 
+.section-heading{
+    margin-bottom: 100px;
+}
+
+.card-grid-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    vertical-align: text-top;
+}
+
 .card{
-    border: 2px 3px solid #6f6f7b;
+    border: 2px solid #6f6f7b;
+    box-shadow: 1px 1px 10px 2px #555555;
+
+    padding: 30px 10px;
+    margin: 15px;
+    margin-bottom: 100px;
+    height: 250px;
 }

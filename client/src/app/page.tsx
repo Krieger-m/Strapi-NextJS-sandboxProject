@@ -6,6 +6,7 @@ import '@/styles/newStyles.css'
 import { getGlobal, getLandingPage } from '@/data/loaders';
 import { HeroSection } from '@/components/blocks/Hero';
 import { SectionHeading } from '@/components/blocks/SectionHeading';
+import { CardGrid } from '@/components/blocks/CardGrid';
 
 import Image from "next/image";
 import Link from "next/link";
@@ -77,6 +78,7 @@ export default async function HomeRoute() {
       
       <HeroSection {...landingPageBlocks[0]}/> 
       <SectionHeading {...landingPageBlocks[1]}/>
+      <CardGrid {...landingPageBlocks[2]}/>
       
     </div>
   );
