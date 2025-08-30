@@ -109,14 +109,17 @@ h1 {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  vertical-align: text-top;
+  justify-content: center;
+  gap: 20px;
 }
 
 .card {
   border: 2px solid #6f6f7b;
   box-shadow: 1px 1px 10px 2px #555555;
   padding: 30px 10px;
-  margin: 15px;
   margin-bottom: 100px;
-  height: 250px;
+  flex: 1 1 250px;
+  overflow-y: auto;
+  min-height: 300px;
+  max-height: 350px;
 }
