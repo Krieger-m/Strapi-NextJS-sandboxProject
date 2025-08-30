@@ -20,6 +20,7 @@ export function HeroSection({
             
             <div className='image-div'>
                 <StrapiImage 
+                    
                     src={image.url} 
                     alt={image.alternativeText}
                     width={480}
