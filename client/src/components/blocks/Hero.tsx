@@ -22,14 +22,14 @@ export function HeroSection({
                 <StrapiImage 
                     src={image.url} 
                     alt={image.alternativeText}
-                    width={390}
-                    height={540}
+                    width={540}
+                    height={720}
                 />
             </div>
             <div className='text-area'>
                 <div>
                     <h1 className='head smaller'>{heading}</h1>
-                    <p className='paragraph'>{text}</p>
+                    <p className='paragraph narrow'>{text}</p>
                 
                         <Link href={links[0].href}>
                             <button className='primary-button'>

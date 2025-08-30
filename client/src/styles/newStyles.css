@@ -60,7 +60,7 @@ h1{
 .hero-section{
     display: flex;
     flex-direction: row;
-    margin-bottom: 100px;
+    margin-bottom: 120px;
 }
 
 .text-area{
@@ -72,6 +72,10 @@ h1{
 .paragraph{
     padding: 20px 20px;
     
+}
+
+.narrow{
+    padding: 20px 150px ;
 }
 
 .section-heading{

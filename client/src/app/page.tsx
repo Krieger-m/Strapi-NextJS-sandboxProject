@@ -73,7 +73,7 @@ export default async function HomeRoute() {
   
   return (
     <div>
-      <TestTitle {...globalData}/>
+      {/* <TestTitle {...globalData}/> */}
       <TestTitle  {...landingPageData}/>
       
       <HeroSection {...landingPageBlocks[0]}/> 
