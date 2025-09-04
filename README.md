@@ -1,8 +1,8 @@
 ## My Strapi/NextJS Sandbox-Project  
   
-> [!WARNING]
-> currentlz trying to solve a critical error involving the admi panel and resources
-
+> [!Note]
+> fixed problem with resources and admin panel  
+  
   
 > [!NOTE]
 > this project is for learning purposes 
