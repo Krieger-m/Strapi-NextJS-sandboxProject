@@ -7,6 +7,7 @@ import { getGlobal, getLandingPage } from '@/data/loaders';
 import { HeroSection } from '@/components/blocks/Hero';
 import { SectionHeading } from '@/components/blocks/SectionHeading';
 import { CardGrid } from '@/components/blocks/CardGrid';
+import { EmotionTestComp } from '@/components/EmotionTestComp';
 
 import Image from "next/image";
 import Link from "next/link";
@@ -77,6 +78,7 @@ export default async function HomeRoute() {
       <TestTitle  {...landingPageData}/>
       
       <HeroSection {...landingPageBlocks[0]}/> 
+      <EmotionTestComp />
       <SectionHeading {...landingPageBlocks[1]}/>
       <CardGrid {...landingPageBlocks[2]}/>
       
