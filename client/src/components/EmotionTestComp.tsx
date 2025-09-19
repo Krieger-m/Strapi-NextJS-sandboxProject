@@ -1,6 +1,7 @@
 'use client'
 
 
+import { css } from '@emotion/react';
 import styled from '@emotion/styled';
 
 const StyledButton = styled.button`
@@ -15,10 +16,10 @@ const StyledButton = styled.button`
     background-color: #0056b3;
   }
 `;
-
 export function EmotionTestComp() {
   return <StyledButton>Click Me</StyledButton>;
 }
+
 
 
 
