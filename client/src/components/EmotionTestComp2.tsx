@@ -18,6 +18,6 @@ const StyledButton1 = {
 };
 
 export function EmotionStyleObjectTest(){
-  return <button css={StyledButton1.self as any}>Styled with style object</button>
+  return <button css={StyledButton1.self as any}>Styled with style object</button>;
 }
 

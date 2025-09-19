@@ -1,4 +1,3 @@
-'use client'
 
   //! my customized starting page 
 // contains route and data. later on in the process it will be used to get the data from our strapi-api-endpoints
@@ -8,12 +7,12 @@ import { getGlobal, getLandingPage } from '@/data/loaders';
 import { HeroSection } from '@/components/blocks/Hero';
 import { SectionHeading } from '@/components/blocks/SectionHeading';
 import { CardGrid } from '@/components/blocks/CardGrid';
-import { EmotionTestComp } from '@/components/EmotionTestComp';
-import { EmotionTestComp2 } from '@/components/EmotionTestComp';
+import { CRDiv } from '@/components/ClientRenderDiv';
 import { EmotionStyleObjectTest } from '@/components/EmotionTestComp2';
 
 import Image from "next/image";
 import Link from "next/link";
+import { EmotionStyledButton } from '@/components/EmotionStyledButton';
 
 
   //! my landingPageLoader function
@@ -81,10 +80,9 @@ export default async function HomeRoute() {
       <TestTitle  {...landingPageData}/>
       
       <HeroSection {...landingPageBlocks[0]}/> 
-      <EmotionTestComp />
-      <EmotionTestComp2 />
+      <EmotionStyledButton />
       <br/>
-      <EmotionStyleObjectTest/>
+      <CRDiv/>
       <SectionHeading {...landingPageBlocks[1]}/>
       <CardGrid {...landingPageBlocks[2]}/>
       
