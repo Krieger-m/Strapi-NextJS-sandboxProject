@@ -20,7 +20,7 @@ const StyledButton = styled.button`
 `;
 
 export function EmotionStyledButton() {
-  return <StyledButton>Click Me</StyledButton>;
+  return <StyledButton>Styled with string interpolation</StyledButton>;
 }
 
 

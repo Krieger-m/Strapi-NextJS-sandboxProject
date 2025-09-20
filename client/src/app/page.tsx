@@ -7,12 +7,11 @@ import { getGlobal, getLandingPage } from '@/data/loaders';
 import { HeroSection } from '@/components/blocks/Hero';
 import { SectionHeading } from '@/components/blocks/SectionHeading';
 import { CardGrid } from '@/components/blocks/CardGrid';
-import { CRDiv } from '@/components/ClientRenderDiv';
-import { EmotionStyleObjectTest } from '@/components/EmotionTestComp2';
+import { EmotionStyleObjectTest } from '@/components/EmotionTest/EmotionTestComp2';
 
 import Image from "next/image";
 import Link from "next/link";
-import { EmotionStyledButton } from '@/components/EmotionStyledButton';
+import { EmotionStyledButton } from '@/components/EmotionTest/EmotionStyledButton';
 
 
   //! my landingPageLoader function
@@ -82,7 +81,9 @@ export default async function HomeRoute() {
       <HeroSection {...landingPageBlocks[0]}/> 
       <EmotionStyledButton />
       <br/>
-      <CRDiv/>
+      <EmotionStyleObjectTest />
+      <br/>
+      <br/>
       <SectionHeading {...landingPageBlocks[1]}/>
       <CardGrid {...landingPageBlocks[2]}/>
       
