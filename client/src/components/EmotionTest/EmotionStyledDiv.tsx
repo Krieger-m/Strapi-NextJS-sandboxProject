@@ -3,22 +3,24 @@
 /** @jsxImportSource @emotion/react */
 
 import { css } from '@emotion/css';
+import { EmotionButton } from './EmotionStyledButton';
 
-export const EmotionButton = () => {
+export const EmotionDiv = () => {
   return (
-    <button
+    <div
       className={css({
-        backgroundColor: 'blueviolet',
+        backgroundColor: '#525252ff',
         border: '1px solid #eee',
         borderRadius: '0.5rem',
         padding: '1rem',
         margin: '50px',
         '&:hover': {
-          backgroundColor: 'blue',
+          backgroundColor: 'grey',
         },
       })}
     >
-      Styled with Emotion
-    </button>
+      Emotion Div
+      <EmotionButton />
+    </div>
   );
 }
