@@ -1,5 +1,5 @@
 
-    //! SectionHeading Component
+    //! Card Component
 
 // import { StrapiImage } from "../StrapiImage";
 // import Link from "next/link";

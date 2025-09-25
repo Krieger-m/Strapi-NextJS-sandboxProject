@@ -1,3 +1,5 @@
+'use client'
+
 // components/atoms/Button.js
 import { PropsWithChildren } from 'react';
 import styled from '@emotion/styled';
